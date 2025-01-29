@@ -23,3 +23,7 @@ system_ext/bin/motsettings
 -system/app/MotoSignatureApp/MotoSignatureApp.apk
 system/framework/com.motorola.motosignature.jar
 system/etc/permissions/com.motorola.motosignature.xml
+
+# Postproc
+system_ext/etc/public.libraries-moto.txt
+system_ext/lib64/libenginepostproc.moto.so
