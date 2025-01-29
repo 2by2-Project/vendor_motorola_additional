@@ -15,7 +15,7 @@ system/framework/com.motorola.android.dropboxhelper.jar
 # MotoSettings
 system/framework/moto-settings.jar
 system/etc/permissions/moto-settings.xml
-system_ext/priv-app/MotorolaSettingsProvider/MotorolaSettingsProvider.apk
+-system_ext/priv-app/MotorolaSettingsProvider/MotorolaSettingsProvider.apk
 system_ext/bin/motsettings
 
 # MotoSignature
