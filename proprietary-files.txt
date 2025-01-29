@@ -1,0 +1,25 @@
+# All unpinned blobs below are extracted from fogos_g-user 14 U1UGS34.23-110-23-2 7dcf6d release-keys.
+
+# MotoCore
+system/framework/moto-checkin.jar
+system/framework/com.motorola.frameworks.core.addon.jar
+system/framework/moto-core_services.jar
+system/etc/permissions/com.motorola.frameworks.core.addon.xml
+system/etc/permissions/moto-core_services.xml
+system/etc/permissions/moto-checkin.xml
+
+# Dropbox helper
+system/bin/dropboxhelper
+system/framework/com.motorola.android.dropboxhelper.jar
+
+# MotoSettings
+system/framework/moto-settings.jar
+system/etc/permissions/moto-settings.xml
+system_ext/priv-app/MotorolaSettingsProvider/MotorolaSettingsProvider.apk
+system_ext/bin/motsettings
+
+# MotoSignature
+-system/app/MotoSignature2App/MotoSignature2App.apk
+-system/app/MotoSignatureApp/MotoSignatureApp.apk
+system/framework/com.motorola.motosignature.jar
+system/etc/permissions/com.motorola.motosignature.xml
