@@ -40,6 +40,12 @@ product/etc/permissions/privapp-permissions-com.motorola.gamemode.xml
 -product/priv-app/GameMode/GameMode.apk
 system_ext/etc/permissions/com.motorola.game_moment.xml
 
+# MotoTimeWeather
+product/app/TimeWeather/TimeWeather.apk
+product/etc/default-permissions/default-permission-com.motorola.timeweatherwidget.xml
+product/etc/sysconfig/hiddenapi-whitelist-com.motorola.timeweatherwidget.xml
+product/etc/permissions/com.motorola.timeweatherwidget.xml
+
 # Postproc
 system_ext/etc/public.libraries-moto.txt
 system_ext/lib64/libenginepostproc.moto.so
