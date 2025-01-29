@@ -24,6 +24,22 @@ system_ext/bin/motsettings
 system/framework/com.motorola.motosignature.jar
 system/etc/permissions/com.motorola.motosignature.xml
 
+# MotoLiveWallpapers
+system_ext/etc/permissions/feature-com.motorola.motolivewallpaper.stylize.xml
+system_ext/etc/permissions/feature-com.motorola.motolivewallpaper3.xml
+system_ext/etc/permissions/privapp-permissions-com.motorola.livewallpaper.xml
+system_ext/etc/permissions/afw-com.motorola.livewallpaper.xml
+-system_ext/priv-app/MotoLiveWallpaper3/MotoLiveWallpaper3.apk
+
+# MotoGameMode
+product/etc/default-permissions/default-permissions-com.motorola.gamemode.xml
+product/etc/sysconfig/shortcut-com.motorola.gamemode.xml
+product/etc/sysconfig/hiddenapi-whitelist-com.motorola.gamemode.xml
+product/etc/permissions/com.motorola.gamemode.xml
+product/etc/permissions/privapp-permissions-com.motorola.gamemode.xml
+-product/priv-app/GameMode/GameMode.apk
+system_ext/etc/permissions/com.motorola.game_moment.xml
+
 # Postproc
 system_ext/etc/public.libraries-moto.txt
 system_ext/lib64/libenginepostproc.moto.so
