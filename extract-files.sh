@@ -8,7 +8,7 @@
 
 set -e
 
-ADDITIONAL=additional
+DEVICE=additional
 VENDOR=motorola
 
 # Load extract_utils and do some sanity checks
@@ -54,7 +54,7 @@ if [ -z "${SRC}" ]; then
 fi
 
 # Initialize the helper
-setup_vendor "${ADDITIONAL}" "${VENDOR}" "${ANDROID_ROOT}" false "${CLEAN_VENDOR}"
+setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_ROOT}" false "${CLEAN_VENDOR}"
 
 extract "${MY_DIR}/proprietary-files.txt" "${SRC}" "${KANG}" --section "${SECTION}"
 

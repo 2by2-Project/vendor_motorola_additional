@@ -8,7 +8,7 @@
 
 set -e
 
-ADDITIONAL=additional
+DEVICE=additional
 VENDOR=motorola
 
 # Load extract_utils and do some sanity checks
@@ -25,7 +25,7 @@ fi
 source "${HELPER}"
 
 # Initialize the helper
-setup_vendor "${ADDITIONAL}" "${VENDOR}" "${ANDROID_ROOT}"
+setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_ROOT}"
 
 # Warning headers and guards
 write_headers
