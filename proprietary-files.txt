@@ -1,5 +1,21 @@
 # All unpinned blobs below are extracted from fogos_g-user 14 U1UGS34.23-110-23-2 7dcf6d release-keys.
 
+# Moto Audio
+product/media/audio/notifications/Chime.ogg
+product/media/audio/notifications/Clear.ogg
+product/media/audio/notifications/Element.ogg
+product/media/audio/notifications/Hello.ogg
+product/media/audio/notifications/Ivory.ogg
+product/media/audio/notifications/Moto.ogg
+product/media/audio/notifications/Natural.ogg
+product/media/audio/notifications/Soft.ogg
+product/media/audio/ringtones/Attentive.ogg
+product/media/audio/ringtones/Hello.ogg
+product/media/audio/ringtones/Momentum.ogg
+product/media/audio/ringtones/Moto.ogg
+product/media/audio/ringtones/Natural.ogg
+product/media/audio/ringtones/Simple.ogg
+
 # MotoCore
 system/framework/moto-checkin.jar
 system/framework/com.motorola.frameworks.core.addon.jar
