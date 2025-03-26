@@ -32,11 +32,5 @@ write_headers
 
 write_makefiles "${MY_DIR}/proprietary-files.txt" true
 
-# Custom BoardConfigVendor.mk
-cat << 'EOF' >> "${BOARDMK}"
-SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
-    vendor/motorola/additional/sepolicy/private
-EOF
-
 # Finish
 write_footers
